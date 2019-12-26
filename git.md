@@ -25,6 +25,15 @@
 
 
 
+> 현재 등록된 정보 확인하기
+>
+> ```bash
+> $ git config user.name
+> $ git config user.email
+> ```
+>
+> 
+
 ## 로컬저장소 (repository) 활용하기
 
 
@@ -148,7 +157,7 @@ commit hashcode를 바탕으로 구분된다.
 ### 1.원격 저장소 등록
 
 ```bash
-$ git remote add origin Github url
+$ git remote add origin Githuburl
 ```
 
 * 원격저장소(remote)로 `origin`이라는 이름으로 `github url`을 등록(`add`)한다
@@ -196,4 +205,10 @@ $ git clone github url
 원격 저장소를 복제 한다.
 
 **주의 ! `init` 명령어와 같이 기억하자**
+
+
+
+# git logout방법
+
+윈도우 검색 - `자격`-`자격 증명 관리자`-`github`-`제거`
 
