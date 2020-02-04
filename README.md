@@ -9,6 +9,10 @@
 * [gitignore](./git/gitignore.md)  사용 - [gitignore.io](gitignore.io) 사이트에 접속하여 해당 환경 선택 후 복사 후 생성
 * [push-pull error](./git/push-pull_error.md)  내용
 
+## 2. python
+
+* dfs,bfs 
+
 
 
 
@@ -25,4 +29,14 @@
   * [Optimizer](https://headbreakz.tistory.com/entry/인공지능-Optimizer)
   * [Yolo](https://headbreakz.tistory.com/entry/인공지능-YOLO)
   * [가중치규제](https://headbreakz.tistory.com/entry/인공지능-가중치-규제)
+  
+* chatbot
+
+  * [chatbot 기초](https://headbreakz.tistory.com/entry/chatbot-기초-내용)
+
+  * [Google dialogflow 1](https://headbreakz.tistory.com/entry/chatbot-Google-dialogflow-1)
+
+  * [Google dialogflow 2](https://headbreakz.tistory.com/entry/chatbot-Google-dialogflow-2)
+
+    
 
