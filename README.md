@@ -15,11 +15,9 @@
 
 
 
-
-
 ---
 
-#### Blog
+#### [BLOG](headbreakz.tistory.com)
 
 * 인공지능
 
