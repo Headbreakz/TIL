@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1Y0SJV7TBse3OciHhxdX30wvzUG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -14,7 +21,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\student\Desktop\study\til\mysite\static" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,5 +44,23 @@
       <updated>1582077946498</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="807" y="163" key="#Inspections" timestamp="1582092374762">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="807" y="163" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1582092374762" />
+    <state x="514" y="406" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582158561358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="514" y="406" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582158561358" />
+    <state x="716" y="146" key="SettingsEditor" timestamp="1582092464569">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="716" y="146" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582092464569" />
+    <state x="450" y="132" width="613" height="807" key="find.popup" timestamp="1582184958599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="450" y="132" width="613" height="807" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582184958599" />
   </component>
 </project>

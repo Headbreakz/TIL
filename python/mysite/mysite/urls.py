@@ -17,7 +17,8 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('blog/', include('blog.urls')),        #include blog/urls.py and 기본 경로는 'blog/'
+    path('myboard/', include('myboard.urls')),
+    path('blog/', include('blog.urls')),
     path('ajax/', include('ajax.urls')),
     path('', include('myapp.urls')),
     path('admin/', admin.site.urls),
