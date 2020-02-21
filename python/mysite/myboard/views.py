@@ -1,8 +1,10 @@
+from django.conf import settings
 from django.shortcuts import render, get_object_or_404,redirect
 from django.http import HttpResponse, JsonResponse
 from django.views.generic import View
 from django.contrib.auth.models import User
 from django.core.paginator import Paginator
+from django.db import connection
 
 from . import forms
 from . import models
@@ -102,3 +104,68 @@ def ajaxget(request):
 
     datas = {"datas":[{'pk': sub.pk,'title':sub.title,'cnt':sub.cnt} for sub in subs]}
     return JsonResponse(datas)
+
+
+def dictfetchall(cursor):
+    desc=cursor.description
+    return[
+        dict(zip([col[0] for col in desc],row))
+        for row in cursor.fetchall()
+    ]
+
+def listsql(request,category,page):
+
+    username = request.session["username"]
+    cursor = connection.cursor()
+    cursor.execute(f"""select title, cnt, username,category 
+                   from myboard_board b , auth_user u 
+                   where b.author_id = u.id and username='{username}' and category='{category}'
+                   """
+                   )
+    sub_find=dictfetchall(cursor)
+
+    subs= sub_find[(page - 1)*3:(page)*3]
+
+    context = {"datas": [{'title': sub['title'], 'cnt': sub['cnt'], 'username': sub['username']} for sub in subs]}
+
+    return render(request,'myboard/list3.html',context)
+
+def photo(request):
+
+    username = request.session["username"]
+    sql = f"""
+        select filename
+        from myboard_image 
+        where author_id=(select id from auth_user where username='{username}')
+        """
+
+    cursor = connection.cursor()
+    cursor.execute(sql)
+
+    data = dictfetchall(cursor)
+    context = {"data": data, "username": username}
+
+    return render(request, 'myboard/photo.html', context)
+
+
+
+def uploadimage(request):
+    file = request.FILES['filename']
+    username = request.POST["username"]
+    filename = file.name
+    fp = open(settings.BASE_DIR + '/static/faces/'+username +"/"+ filename, 'wb')
+    for chunk in file.chunks():
+        fp.write(chunk)
+    fp.close()
+
+    sql = f"""
+    INSERT INTO myboard_image
+    ("author_id", "filename")
+    VALUES((select id from auth_user where username='{username}'),'{filename}');
+    """
+
+    cursor = connection.cursor()
+    cursor.execute(sql)
+
+
+    return redirect('/myboard/photo')

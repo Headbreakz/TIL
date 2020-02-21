@@ -7,6 +7,10 @@ urlpatterns = [
     path('', views.page),
     path('ajaxdel', views.ajaxdel),
     path('ajaxget', views.ajaxget),
+    path('<category>/<int:page>', views.listsql),
+    path('photo',views.photo),
+    path('uploadimage',views.uploadimage),
+
     path('<category>/<int:pk>/<mode>/', views.BoardView.as_view(), name="myboard"),
     path('', lambda request: redirect('myboard', 'common', 0, 'list')),
     path('login/', views.LoginView.as_view(), name="login"),
