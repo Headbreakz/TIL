@@ -2,14 +2,19 @@
 
 > 매일 배운 내용을 정리합니다.
 
-## 1. Git
+### git
 
 * [git](./git/git.md)  내용
+
 * [markdown](./git/markdown.md)  사용법
 * [gitignore](./git/gitignore.md)  사용 - [gitignore.io](gitignore.io) 사이트에 접속하여 해당 환경 선택 후 복사 후 생성
 * [push-pull error](./git/push-pull_error.md)  내용
 
-## 2. python
+
+
+---
+
+### Python
 
 * dfs,bfs 
 * python socket
@@ -18,7 +23,7 @@
 
 ---
 
-#### [BLOG](headbreakz.tistory.com)
+#### [BLOG](headbreakz.tistory.com) : headbreakz.tistory.com
 
 * 인공지능
 
@@ -47,4 +52,11 @@
   * [Python Socket](https://headbreakz.tistory.com/entry/Code-Python-Socket)
 
     
+    
+    
 
+---
+
+Project
+
+* 알약 사진을 통한 알약 정보 알리미
