@@ -1,9 +1,0 @@
-{% extends 'myboard/base.html' %}
-
-{% block content %}
-<a href="{% url 'myboard' category 0 'add' %}">Add </a> <br>
-{%  for d in data %}
-<a href="{% url 'myboard' category d.pk 'detail' %}"> {{d.title}} 조회수 {{d.cnt}} </a> <br>
-{% endfor %}
-
-{% endblock %}

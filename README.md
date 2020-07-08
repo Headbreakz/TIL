@@ -1,6 +1,6 @@
-# TIL ( Today I Learned)
+# TIL 
 
-> 매일 배운 내용을 정리합니다.
+> 공부한 내용을 정리 : 
 
 ### git
 
@@ -13,7 +13,9 @@
 
 ---
 
+#### OpenCV
 
+* OpenCV를 사용하여, 이미지 변환 및 OCR , CONTOUR 
 
 ---
 
