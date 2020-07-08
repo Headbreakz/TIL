@@ -14,6 +14,3 @@ a.txt #특정 파일
 
 
 
-* `python`.`windows`,`jupyternotebook`
-
-  

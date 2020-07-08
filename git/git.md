@@ -1,6 +1,4 @@
-# Git
-
-
+### Git
 
 > Git은 분산 버전 관리시스템(DVCS)이다.
 >
@@ -8,9 +6,9 @@
 
 
 
-# 준비하기
 
 
+#### Git 준비하기
 
 > 윈도우에서 git을 활용하기 위해 [git bash](https://gitforwindows.org/)를 설치한다.
 >
@@ -34,11 +32,11 @@
 >
 > 
 
-## 로컬저장소 (repository) 활용하기
 
 
+#### 로컬저장소 (repository) 활용하기
 
-### 1.저장소 초기화
+#### 1.저장소 초기화
 
 ```bash
 $ git init
@@ -50,7 +48,7 @@ Initialized empty Git repository in C:/Users/student/Desktop/til/.git/
 
 
 
-### 2.add
+#### 2.add
 
 `working directory`, 즉 작업공간에서 변경된 사항을 이력으로 저장하기 위해서는 반드시 `staging area`를 거쳐야 한다.
 
@@ -99,7 +97,9 @@ $ git add . # 현재 디렉토리
           markdown.md
   ```
 
-### 3. `commit`
+
+
+#### 3. `commit`
 
 commit은 이력을 확정짓는 명령어로, 해당 시점의 스냅샷을 기록한다. 
 
@@ -142,19 +142,21 @@ commit hashcode를 바탕으로 구분된다.
 
 
 
-## 원격저장소(remote repository) 활용하기
+
+
+#### 원격저장소(remote repository) 활용하기
 
 원격 저장소 기능을 제공하는 다양한 서비스 중에 github을 기준으로 설명한다.
 
 
 
-### 0.준비사항
+#### 0.준비사항
 
 * Github에 repository 생성
 
 
 
-### 1.원격 저장소 등록
+#### 1.원격 저장소 등록
 
 ```bash
 $ git remote add origin Githuburl
@@ -170,7 +172,9 @@ $ git remote add origin Githuburl
   origin  https://github.com/Headbreakz/til.git (push)
   ```
 
-### 2.push - 원격저장소 업로드
+
+
+#### 2.push - 원격저장소 업로드
 
 ```bash
 $ git push origin master
@@ -186,7 +190,7 @@ $ git push origin master
 
 
 
-### 3.pull
+#### 3.pull
 
 ```bash
 $ git pull origin master
@@ -196,7 +200,7 @@ $ git pull origin master
 
 
 
-### 4.`clone`
+#### 4.`clone`
 
 ```bash
 $ git clone github url
@@ -208,7 +212,9 @@ $ git clone github url
 
 
 
-# git logout방법
+
+
+#### git logout방법
 
 윈도우 검색 - `자격`-`자격 증명 관리자`-`github`-`제거`
 
