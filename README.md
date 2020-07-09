@@ -4,11 +4,7 @@
 
 ### git
 
-* [git](./git/git.md)  내용
-
-* [gitignore](./git/gitignore.md)  사용 - [gitignore.io](gitignore.io) 사이트에 접속하여 해당 환경 선택 후 복사 후 생성
-* [push-pull error](./git/push-pull_error.md)  내용
-
+* git 사용법, gitignore, push-pull error
 
 
 ---
@@ -16,6 +12,12 @@
 #### OpenCV
 
 * OpenCV를 사용하여, 이미지 변환 및 OCR , CONTOUR 
+
+---
+
+#### FaceAnalysis
+
+* 얼굴 분석에 관한 내용, 나이, 감정, Detect 등 
 
 ---
 
