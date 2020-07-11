@@ -6,7 +6,6 @@
 
 * git 사용법, gitignore, push-pull error
 
-
 ---
 
 #### OpenCV
@@ -20,6 +19,20 @@
 * 얼굴 분석에 관한 내용, 나이, 감정, Detect 등 
 
 ---
+
+#### Web
+
+* Crawling
+
+---
+
+#### AI
+
+* 이미지 관련 부분과 CNN  및 NLP, LSTM, Word2vec
+
+---
+
+
 
 #### [BLOG](headbreakz.tistory.com) : headbreakz.tistory.com
 
