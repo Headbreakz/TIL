@@ -40,6 +40,7 @@
 
   * [알고리즘 선택](https://headbreakz.tistory.com/entry/인공지능-알고리즘-선택)
   * [신경망 (Neural Networks) Q&A](https://headbreakz.tistory.com/entry/인공지능-QA-1)
+  * [지도학습, 비지도학습 종류](https://headbreakz.tistory.com/entry/인공지능-지도학습비지도학습-알고리즘-종류)
   * [최적의 가중치 찾기](https://headbreakz.tistory.com/entry/인공지능-최적의-가중치-찾기)
   * [활성화 함수](https://headbreakz.tistory.com/entry/인공지능-활성화-함수)
   * [Optimizer](https://headbreakz.tistory.com/entry/인공지능-Optimizer)
@@ -49,6 +50,9 @@
   * [NLP](https://headbreakz.tistory.com/entry/인공지능-NLP)
   * [하이퍼 파라미터 최적화](https://headbreakz.tistory.com/entry/인공지능-하이퍼-파라미터-최적화)
   * [Hyperas](https://headbreakz.tistory.com/entry/인공지능-Hyperas)
+  * [Object Dection - one/two stage](https://headbreakz.tistory.com/entry/인공지능-two-stage-method)
+  * [Focal loss](https://headbreakz.tistory.com/entry/인공지능-Batch-Mini-Batch)
+  * [Gradient Clipping](https://headbreakz.tistory.com/entry/인공지능-Gradient-Clipping)
   
 * chatbot
 
@@ -62,6 +66,12 @@
 
   * [Python Socket](https://headbreakz.tistory.com/entry/Code-Python-Socket)
 
+  * [구글 API text detection](https://headbreakz.tistory.com/entry/code-이미지에서-글씨-찾기-구글-API-windows에서)
+  
+  * [이미지 색상 투명화](https://headbreakz.tistory.com/entry/code-이미지에서-픽셀-투명화-하기)
+  
+  * [OpenCV Grabcut](https://headbreakz.tistory.com/entry/code-OpenCV-GrabCut)
+  
     
     
     
