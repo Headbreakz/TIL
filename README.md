@@ -53,6 +53,7 @@
   * [Object Dection - one/two stage](https://headbreakz.tistory.com/entry/인공지능-two-stage-method)
   * [Focal loss](https://headbreakz.tistory.com/entry/인공지능-Batch-Mini-Batch)
   * [Gradient Clipping](https://headbreakz.tistory.com/entry/인공지능-Gradient-Clipping)
+  * [K-fold cross validation](https://headbreakz.tistory.com/entry/k-fold-cross-validation)
   
 * chatbot
 
