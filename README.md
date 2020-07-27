@@ -16,7 +16,7 @@
 
 #### FaceAnalysis
 
-* 얼굴 분석에 관한 내용, 나이, 감정, Detect 등 
+* 얼굴 분석, 나이, 감정, Detect 등 
 
 ---
 
@@ -54,7 +54,8 @@
   * [Focal loss](https://headbreakz.tistory.com/entry/인공지능-Batch-Mini-Batch)
   * [Gradient Clipping](https://headbreakz.tistory.com/entry/인공지능-Gradient-Clipping)
   * [K-fold cross validation](https://headbreakz.tistory.com/entry/k-fold-cross-validation)
-  
+  * [PASCAL VOC dataset](https://headbreakz.tistory.com/entry/PASCAL-VOC)
+  * [Coco dataset](https://headbreakz.tistory.com/entry/coco)
 * chatbot
 
   * [chatbot 기초](https://headbreakz.tistory.com/entry/chatbot-기초-내용)
@@ -62,20 +63,28 @@
   * [Google dialogflow 1](https://headbreakz.tistory.com/entry/chatbot-Google-dialogflow-1)
 
   * [Google dialogflow 2](https://headbreakz.tistory.com/entry/chatbot-Google-dialogflow-2)
-
 * Code
 
   * [Python Socket](https://headbreakz.tistory.com/entry/Code-Python-Socket)
-
-  * [구글 API text detection](https://headbreakz.tistory.com/entry/code-이미지에서-글씨-찾기-구글-API-windows에서)
-  
+* [구글 API text detection](https://headbreakz.tistory.com/entry/code-이미지에서-글씨-찾기-구글-API-windows에서)
   * [이미지 색상 투명화](https://headbreakz.tistory.com/entry/code-이미지에서-픽셀-투명화-하기)
-  
   * [OpenCV Grabcut](https://headbreakz.tistory.com/entry/code-OpenCV-GrabCut)
-  
-    
-    
-    
-
----
-
+  * [ImageDataGenerator](https://headbreakz.tistory.com/entry/CODE-ImageDataGenerator)
+* 통계
+  * [베이즈 정리](https://headbreakz.tistory.com/entry/통계-베이즈-정리)
+* AI 서비스 Review (예정)
+  * 국민은행
+    1. Liiv Talk Talk
+    2. KBotSAM
+    3. KB브릿지
+    4. KB 알버트
+  * 신한은행
+    1. 오로라
+    2. 쏠리치
+    3. AI 몰리
+    4. 쏠리
+  * 우리은행
+    1. 우리 로보 알파
+  * 하나은행
+    1. HAI
+    2. HAI Robo
