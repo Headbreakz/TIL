@@ -67,6 +67,7 @@
 * [facebook AI chatbot blender 사용법](https://headbreakz.tistory.com/entry/Chatbot-facebook-AI-chatbot-blender-%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95-colab)
   * [Recipes for building an open-domain chatbot 논문 살펴보기1](https://headbreakz.tistory.com/entry/Chatbot-Recipes-for-building-an-open-domain-chatbot-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0-1)
   * [Recipes for building an open-domain chatbot 논문 살펴보기2](https://headbreakz.tistory.com/entry/Chatbot-Recipes-for-building-an-open-domain-chatbot-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0-2)
+  * [Blender 사용후기](https://headbreakz.tistory.com/entry/chatbot-facebook-AI-chatbot-%EC%82%AC%EC%9A%A9%EA%B8%B0-Blender)
 * Code
 
   * [Python Socket](https://headbreakz.tistory.com/entry/Code-Python-Socket)
