@@ -32,16 +32,6 @@
 
 ---
 
-[Test](#하)
-
-[test2](#호호호)
-
-[test3](#하_하_하)
-
-
-
-
-
 #### [BLOG](headbreakz.tistory.com) : headbreakz.tistory.com
 
 * 인공지능
@@ -120,9 +110,7 @@
   
     
 
-### 하 하 하
-
-## 호호호
+---
 
 
 
